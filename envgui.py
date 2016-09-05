@@ -104,7 +104,7 @@ class Empty:
     pass
 
 class EnvCanvas(tk.Canvas, object):
-    def __init__(self, parent, env, cellwidth, w, h):
+    def __init__(self, parent: object, env: object, cellwidth: object, w: object, h: object) -> object:
         self.env = env
         cellheight = cellwidth
         canvwidth = cellwidth * w  # (cellwidth + 1 ) * n

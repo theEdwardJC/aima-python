@@ -198,6 +198,7 @@ v.scatter_things(Dirt)
 g = gui.EnvGUI(v, 'Vaccuum')
 c = g.getCanvas()
 c.mapImageNames({
+    # should correctly associate wall with image.
     ag.Wall: 'submissions/Cunningham/default.jpeg',
     # Floor: 'images/floor.png',
     Dirt: 'images/dirt.png',
